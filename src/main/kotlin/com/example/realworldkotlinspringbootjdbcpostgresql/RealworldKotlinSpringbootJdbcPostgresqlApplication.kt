@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class RealworldKotlinSpringbootJdbcPostgresqlApplication
 
 fun main(args: Array<String>) {
-	runApplication<RealworldKotlinSpringbootJdbcPostgresqlApplication>(*args)
+    runApplication<RealworldKotlinSpringbootJdbcPostgresqlApplication>(*args)
 }
