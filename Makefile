@@ -10,6 +10,10 @@ test: ## テスト実行
 fmt: ## format and lint
 	./gradlew ktlintFormat
 
+.PHONY: test.e2e
+test.e2e: ## e2eテスト実行
+	bash e2e/run-api-tests.sh
+
 ################################################################################
 # Utility-Command help
 ################################################################################
